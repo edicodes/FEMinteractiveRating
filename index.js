@@ -8,7 +8,7 @@ ratings.forEach(rating => {
             rating.classList.remove('select')
         })
         rating.classList.add('select')
-        rated.textContent = rating
+        rated.textContent(rating)
     
     })
 })
