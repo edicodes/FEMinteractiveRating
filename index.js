@@ -1,4 +1,5 @@
 const ratings = document.querySelectorAll('[data-rating');
+const rated = document.querySelector('#rating-selected')
 
 
 ratings.forEach(rating => {
@@ -7,6 +8,7 @@ ratings.forEach(rating => {
             rating.classList.remove('select')
         })
         rating.classList.add('select')
+        rated.textContent = rating
     
     })
 })
