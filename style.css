@@ -56,7 +56,7 @@ button {
 }
 
 span, img {
-    background-color: hsla(211, 20%, 21%, 0.512);
+    background-color: hsla(211, 20%, 25%, 0.722);
     border-radius: 50%;
     aspect-ratio: 1;
     padding: .5em 1em; 
