@@ -1,9 +1,13 @@
-document.querySelectorAll('.number').forEach(rating => {
+const ratings = document.querySelectorAll('[data-rating');
+
+
+ratings.forEach(rating => {
     rating.addEventListener('click', () => {
         ratings.forEach(rating => {
-            rating.classList.remove('select');
+            rating.classList.remove('select')
         })
         rating.classList.add('select')
+    
     })
 })
 
