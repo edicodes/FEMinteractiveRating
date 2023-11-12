@@ -54,7 +54,7 @@ button {
     border-radius: 100vw;
     width: 100%; 
     font-family: inherit;
-    font-size: inherit;
+    font-size: 20px;
 }
 
 .number {
@@ -62,8 +62,9 @@ button {
     border-radius: 50%;
     width: 2rem;
     aspect-ratio: 1;
-    display: grid;
-    place-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
    
 }
 
