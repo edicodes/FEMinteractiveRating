@@ -57,7 +57,7 @@ button {
     font-size: inherit;
 }
 
-number {
+.number {
     background-color: hsla(211, 20%, 25%, 0.722);
     border-radius: 50%;
     width: 2rem;
