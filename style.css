@@ -1,0 +1,22 @@
+:root {
+    --clr-primary:  hsl(25, 97%, 53%);
+    --neutral-100: hsl(0, 0%, 100%);
+    --neutral-200: hsl(217, 12%, 63%);
+    --neutral-300: hsl(216, 12%, 54%);
+    --neutral-blue-800: hsl(213, 19%, 18%);
+    --neutral-blue-900: hsl(216, 12%, 8%);
+
+    --fs-primary: 15px;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    margin: 0; 
+    display: grid;
+    place-content: center;
+    font-weight: 400;
+}
+
+strong, h1, h2, h3, h4 {
+    font-weight: 700; 
+}
