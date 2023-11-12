@@ -8,8 +8,8 @@ ratings.forEach(rating => {
         ratings.forEach(rating => {
             rating.classList.remove('select')
         })
-        rating.classList.add('select')
-        rated.innerHTML = text
+        rating.classList.add('select');
+        rated.innerHTML = text;
     
     })
 })
