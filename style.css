@@ -72,3 +72,7 @@ button {
 span p {
     font-size: 1.125em;
 }
+
+.number:has(img) {
+    padding: .5em;
+}
