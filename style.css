@@ -33,7 +33,7 @@ strong, h1, h2, h3, h4 {
     background-image: linear-gradient( hsl(213, 19%, 21%) , var(--neutral-blue-800));
     border-radius: 20px;
     padding: 1rem; 
-    width: 400px;
+    width: 375px;
 }
 
 .row {
@@ -41,6 +41,7 @@ strong, h1, h2, h3, h4 {
     justify-content: space-between;
     align-items: center;
     gap: 1em;
+    margin-block-end: 1rem;
 }
 
 button {
