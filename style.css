@@ -17,7 +17,7 @@ body {
     font-size: var(--fs-primary);
     margin: 0; 
     display: grid;
-    place-content: center;
+    place-items: center;
  
 }
 
@@ -27,7 +27,7 @@ strong, h1, h2, h3, h4 {
 }
 
 .card {
-    background-image: linear-gradient( hsl(213, 19%, 80%) , var(--neutral-blue-800));
+    background-image: linear-gradient( hsl(213, 19%, 30%) , var(--neutral-blue-800));
     border-radius: 20px;
     padding: .5rem; 
     width: 350px;
@@ -54,7 +54,7 @@ span, img {
     background-color: var(--neutral-300);
     border-radius: 50%;
     aspect-ratio: 1;
-    padding: .5em 1.5em; 
+    padding: .5em 1.25em; 
 }
 
 span {
