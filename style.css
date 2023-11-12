@@ -58,6 +58,13 @@ button {
     font-family: inherit;
     font-size: inherit;
     margin-top: .5rem; 
+    transition: 250ms ease-in-out;
+
+}
+
+button:hover {
+    background-color: var(--clr-neutral-100);
+    color: var(--clr-primary)
 }
 
 .number {
@@ -69,13 +76,19 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 250ms ease-in-out;
    
 }
 
-span p {
+.number p {
     font-size: 1.125em;
 }
 
 .number:has(img) {
     padding: .5em;
+}
+
+.number:has(p):hover {
+    background-color: var(--clr-primary);
+    color: var(--neutral-100);
 }
