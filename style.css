@@ -78,7 +78,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     transition: 250ms ease-in-out;
-   
+   cursor: pointer;
 }
 
 .number p {
