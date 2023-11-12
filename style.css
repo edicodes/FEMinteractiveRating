@@ -60,7 +60,7 @@ button {
     margin-top: .5rem; 
     transition: 250ms ease-in-out;
     border: none;
-
+   cursor: pointer;
 }
 
 button:hover {
@@ -92,4 +92,8 @@ button:hover {
 .number:has(p):hover {
     background-color: var(--clr-primary);
     color: var(--neutral-100);
+}
+
+.hidden {
+    display: none; 
 }
