@@ -10,13 +10,45 @@
 }
 
 body {
+    background-color: var(--neutral-blue-900);
+    color: var(--neutral-200);
     font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-size: var(--fs-primary);
     margin: 0; 
     display: grid;
     place-content: center;
-    font-weight: 400;
+ 
 }
 
 strong, h1, h2, h3, h4 {
     font-weight: 700; 
+    color: var(--neutral-100);
+}
+
+.card {
+    background-image: linear-gradient(var(--neutral-300), var(--neutral-blue-800));
+    border-radius: 20px;
+    padding: .5rem; 
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+}
+
+button {
+    color: var(--neutral-100);
+    padding: .5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: var(--clr-primary);
+}
+
+span, img {
+    background-color: var(--neutral-300);
+    border-radius: 50%;
+    aspect-ratio: 1;
 }
