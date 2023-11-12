@@ -18,6 +18,7 @@ body {
     margin: 0; 
     display: grid;
     place-items: center;
+    min-height: 100vh;
  
 }
 
@@ -30,7 +31,7 @@ strong, h1, h2, h3, h4 {
 }
 
 .card {
-    background-image: linear-gradient( hsl(213, 19%, 21%) , var(--neutral-blue-800));
+    background-image: linear-gradient( hsl(213, 19%, 19%) , var(--neutral-blue-800));
     border-radius: 20px;
     padding: 2rem; 
     width: 375px;
@@ -41,7 +42,7 @@ strong, h1, h2, h3, h4 {
     justify-content: space-between;
     align-items: center;
     gap: 1em;
-    padding: 2rem 0;
+    padding: 1.25rem 0;
 }
 
 button {
