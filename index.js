@@ -1,6 +1,8 @@
 document.querySelectorAll('.number').forEach(rating => {
     rating.addEventListener('click', () => {
-        rating.classList.remove('select');
+        ratings.forEach(rating => {
+            rating.classList.remove('select');
+        })
         rating.classList.add('select')
     })
 })
@@ -13,3 +15,4 @@ function changeState() {
     initialState.classList.add('hidden');
     thankYouState.classList.remove('hidden')
 }
+
