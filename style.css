@@ -57,13 +57,16 @@ button {
     font-size: inherit;
 }
 
-span, img {
+number {
     background-color: hsla(211, 20%, 25%, 0.722);
     border-radius: 50%;
+    width: 2rem;
     aspect-ratio: 1;
-    padding: .75em 1em; 
+    display: grid;
+    place-content: center;
+   
 }
 
-span {
+span p {
     font-size: 1.125em;
 }
