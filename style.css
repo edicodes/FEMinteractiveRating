@@ -112,7 +112,7 @@ button:hover {
 }
 
 .selected-rating {
-    background-color: background-color: hsla(211, 20%, 25%, 0.722);
+    background-color: hsla(211, 20%, 25%, 0.722);
     border-radius: 100vw;
     padding: .25em .5em;
     color: var(--clr-primary);
