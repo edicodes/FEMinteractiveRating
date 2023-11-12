@@ -1,5 +1,5 @@
 const ratings = document.querySelectorAll('[data-rating');
-let text = document.querySelector(".select").textContent;
+// let text = document.querySelector(".select").textContent;
 
 
 ratings.forEach(rating => {
@@ -11,7 +11,7 @@ ratings.forEach(rating => {
     })
 })
 
-document.getElementById('rating-selected').innerHTML = text
+// document.getElementById('rating-selected').innerHTML = text
 
 
 function changeState() {
