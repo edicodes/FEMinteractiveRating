@@ -108,9 +108,11 @@ button:hover {
 }
 
 .thank-you-state h1 {
-    margin-bottom: 1em;
+    margin-bottom: .5em;
 }
-
+.thank-you-state img {
+    text-align: center;
+}
 .selected-rating {
     background-color: hsla(211, 20%, 25%, 0.722);
     border-radius: 100vw;
