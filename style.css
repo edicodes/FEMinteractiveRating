@@ -32,7 +32,7 @@ strong, h1, h2, h3, h4 {
 .card {
     background-image: linear-gradient( hsl(213, 19%, 21%) , var(--neutral-blue-800));
     border-radius: 20px;
-    padding: 1rem; 
+    padding: 2rem; 
     width: 375px;
 }
 
@@ -41,7 +41,7 @@ strong, h1, h2, h3, h4 {
     justify-content: space-between;
     align-items: center;
     gap: 1em;
-    margin-block-end: 1rem;
+    padding: 2rem 0;
 }
 
 button {
@@ -60,7 +60,7 @@ span, img {
     background-color: hsla(211, 20%, 25%, 0.722);
     border-radius: 50%;
     aspect-ratio: 1;
-    padding: .5em 1em; 
+    padding: .75em 1em; 
 }
 
 span {
