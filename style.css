@@ -29,7 +29,7 @@ strong, h1, h2, h3, h4 {
 .card {
     background-image: linear-gradient( hsl(213, 19%, 21%) , var(--neutral-blue-800));
     border-radius: 20px;
-    padding: .5rem; 
+    padding: 1rem; 
     width: 400px;
 }
 
