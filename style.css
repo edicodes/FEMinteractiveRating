@@ -62,7 +62,7 @@ button {
     background-color: hsla(211, 20%, 25%, 0.722);
     border-radius: 50%;
     width: 2rem;
-    aspect-ratio: 1.5 / 1;
+    height: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
