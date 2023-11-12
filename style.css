@@ -9,6 +9,11 @@
     --fs-primary: 15px;
 }
 
+img {
+    max-width: 100%;
+    display: block; 
+}
+
 body {
     background-color: var(--neutral-blue-900);
     color: var(--neutral-200);
@@ -100,4 +105,16 @@ button:hover {
 
 .thank-you-state {
     text-align: center;
+}
+
+.thank-you-state h1 {
+    margin-bottom: 1em;
+}
+
+.selected-rating {
+    background-color: background-color: hsla(211, 20%, 25%, 0.722);
+    border-radius: 100vw;
+    padding: .25em .5em;
+    color: var(--clr-primary);
+
 }
