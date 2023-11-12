@@ -9,10 +9,11 @@ ratings.forEach(rating => {
             rating.classList.remove('select')
         })
         rating.classList.add('select');
-        rated.innerHTML = text;
     
     })
 })
+
+rated.innerHTML = text;
 
 
 function changeState() {
