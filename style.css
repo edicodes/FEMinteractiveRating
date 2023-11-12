@@ -111,12 +111,13 @@ button:hover {
     margin-bottom: .5em;
 }
 .thank-you-state img {
-    text-align: center;
+    margin: 0 auto;
 }
+
 .selected-rating {
     background-color: hsla(211, 20%, 25%, 0.722);
     border-radius: 100vw;
     padding: .25em .5em;
     color: var(--clr-primary);
-
+    margin-top: .5em;
 }
