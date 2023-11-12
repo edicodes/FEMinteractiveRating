@@ -10,6 +10,6 @@ function changeState() {
     let initialState = document.querySelector('.rating-state')
     let thankYouState = document.querySelector('.thank-you-state')
 
-    initialState.classList.add('hidden')
-    thankYouState.classList.remove('.hidden')
+    initialState.classList.add('hidden');
+    thankYouState.classList.remove('hidden')
 }
