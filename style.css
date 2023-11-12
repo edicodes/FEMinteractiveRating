@@ -103,6 +103,11 @@ button:hover {
     display: none; 
 }
 
+.select {
+    background-color: var(--neutral-300);
+    color: white;
+}
+
 .thank-you-state {
     text-align: center;
 }
